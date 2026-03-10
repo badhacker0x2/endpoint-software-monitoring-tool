@@ -1,1 +1,6 @@
 systemd
+systemd-timesyncd
+dbus-daemon
+polkitd
+rtkit-daemon
+at-spi-bus-launcher
