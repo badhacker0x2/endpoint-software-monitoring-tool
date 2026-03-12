@@ -6,9 +6,7 @@ from config import LOG_FILE
 # Write alert to log file
 # ---------------------------------
 def log_event(message):
-
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
     log_message = f"[{timestamp}] {message}\n"
 
     with open(LOG_FILE, "a") as log:
@@ -19,7 +17,6 @@ def log_event(message):
 # Console alert
 # ---------------------------------
 def console_alert(message):
-
     print("\n🚨 SECURITY ALERT")
     print(message)
     print()
@@ -29,11 +26,7 @@ def console_alert(message):
 # Alert handler
 # ---------------------------------
 def send_alert(message):
-
-    # print alert
     console_alert(message)
-
-    # log alert
     log_event(message)
 
 
@@ -41,9 +34,17 @@ def send_alert(message):
 # Warning handler
 # ---------------------------------
 def send_warning(message):
-
     print("\n⚠ WARNING")
     print(message)
     print()
 
     log_event("WARNING: " + message)
+
+
+# ---------------------------------
+# Info messages (real-time terminal output)
+# ---------------------------------
+def send_info(message):
+    timestamp = datetime.datetime.now().strftime("%H:%M:%S")
+
+    print(f"[{timestamp}] INFO → {message}")
