@@ -197,11 +197,34 @@ This project demonstrates cybersecurity monitoring concepts such as:
 <li>Advanced SOC-style terminal UI</li>
 </ul>
 
+
+
 <hr>
 
-<h2 align="center">👨‍💻 Author</h2>
+<h2 align="center">👨‍💻 Authors & Contributors</h2>
 
-<p align="center">
-<b>Rahat Sahriar Rafi</b><br>
-Cybersecurity & Python Learning Project
-</p>
+<div style="background:#f6f8fa;padding:20px;border-radius:10px">
+
+<h3>Rahat Sahriar Rafi</h3>
+
+<ul>
+<li>Project Creator</li>
+<li>Designed the system architecture</li>
+<li>Implemented core modules (scanner, monitor, policy manager)</li>
+<li>Developed real-time process and network monitoring logic</li>
+<li>Project documentation and repository management</li>
+</ul>
+
+<h3>Md. Munkasir Haque</h3>
+
+<ul>
+<li>Contributor</li>
+<li>Worked on notification system improvements</li>
+<li>Improved configuration security and credential handling</li>
+<li>Assisted with debugging and runtime error fixes</li>
+<li>Contributed to overall tool workflow enhancement</li>
+</ul>
+
+</div>
+
+<hr>
